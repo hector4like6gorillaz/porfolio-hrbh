@@ -3,6 +3,7 @@ import NormalRoute from './NormalRoute'
 import PrivateRoute from './PrivateRoute'
 import LandingModule from 'src/pages/landing/LandingModule'
 import CatalogoModule from 'src/pages/catalogo/CatalogoModule'
+import TecnologiasModule from 'src/pages/tecnologias/TecnologiasModule'
 
 const Router = () => {
   return (
@@ -14,6 +15,9 @@ const Router = () => {
 
         <Route element={<PrivateRoute />}>
           <Route path='/catalogo' element={<CatalogoModule />} />
+        </Route>
+        <Route element={<PrivateRoute />}>
+          <Route path='/tecnologias' element={<TecnologiasModule />} />
         </Route>
 
         <Route path='*' element={<div> 404 </div>} />
