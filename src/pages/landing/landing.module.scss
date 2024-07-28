@@ -1,0 +1,25 @@
+.container-principal {
+  display: flex;
+  justify-content: center;
+}
+.container-body {
+  max-width: 1200px;
+  border: 1px solid red;
+  display: flex;
+  align-self: center;
+}
+
+.h1-title-intro {
+  color: white;
+  font-size: 3rem;
+  margin-top: 10rem;
+}
+
+.body-container {
+  max-width: 1000px;
+}
+
+.img-container-div {
+  display: flex;
+  justify-content: center;
+}
